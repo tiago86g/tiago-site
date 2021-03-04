@@ -57,13 +57,17 @@ const Navbar = () => {
               </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink href="mailto:name@email.com" to="/">
-                    <Button primary mailto="name@email.com">
-                      Contact
-                    </Button>
+                  <NavBtnLink
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1mxj1MumH4NcPBy0d4zFZNpOwrtZZWous/view?usp=sharing"
+                  >
+                    <Button primary>Contact</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink component="a" href="mailto:name@email.com" to="/">
+                  <NavBtnLink
+                    href="https://drive.google.com/file/d/1mxj1MumH4NcPBy0d4zFZNpOwrtZZWous/view?usp=sharing"
+                    target="_blank"
+                  >
                     <Button fontBig primary>
                       Contact
                     </Button>
