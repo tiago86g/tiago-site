@@ -9,6 +9,7 @@ const globalStyle = createGlobalStyle`
   margin: 0;
   padding:0;
   font-family: 'Fira Sans', sans-serif;
+
 }
 
 html {
@@ -45,6 +46,10 @@ html {
 }
 @media (max-width: 400px) {
   html { font-size: 11px; }
+}
+
+ul, li{
+  list-style: none;
 }
 `;
 
