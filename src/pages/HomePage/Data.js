@@ -79,19 +79,45 @@ export const homeOjbThree = {
 
 export const projectsData = {
   headLine: 'Projects',
+  lightText: true,
   description:
     'We help business owners to increase their revenue, Our team of unique specialist can help you to achieve your goals',
   projects: [
     {
       id: 1,
+      urlPath: 'project-1',
       title: 'Project Title 1',
+      img: require('../../images/tiago.jpg').default,
+      alt: 'Tiago',
       description: 'Short description about the project',
       tools: ['Indesign', 'Illustrator', 'Photoshop'],
     },
 
     {
       id: 2,
+      urlPath: 'project-1',
       title: 'Project Title 2',
+      img: require('../../images/tiago.jpg').default,
+      alt: 'Tiago',
+      description: 'Short description about the project',
+      tools: ['React', 'Node.js', 'HTML', 'CSS', 'JavaScript'],
+    },
+    {
+      id: 3,
+      urlPath: 'project-1',
+      title: 'Project Title 3',
+      img: require('../../images/tiago.jpg').default,
+      alt: 'Tiago',
+      description: 'Short description about the project',
+      tools: ['Indesign', 'Illustrator', 'Photoshop'],
+    },
+
+    {
+      id: 4,
+      urlPath: 'project-1',
+      title: 'Project Title 4',
+      img: require('../../images/tiago.jpg').default,
+      alt: 'Tiago',
       description: 'Short description about the project',
       tools: ['React', 'Node.js', 'HTML', 'CSS', 'JavaScript'],
     },

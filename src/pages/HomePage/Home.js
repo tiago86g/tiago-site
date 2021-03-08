@@ -1,11 +1,12 @@
 import React from 'react';
-import { HeroSection } from '../../components';
-import { homeOjbOne } from './Data';
+import { HeroSection, ProjectsSection } from '../../components';
+import { homeOjbOne, projectsData } from './Data';
 
 export const Home = () => {
   return (
     <div>
       <HeroSection {...homeOjbOne}></HeroSection>
+      <ProjectsSection {...projectsData}></ProjectsSection>
     </div>
   );
 };
