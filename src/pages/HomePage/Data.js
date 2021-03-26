@@ -36,7 +36,7 @@ export const homeOjbOne = {
       someName: 'Linkedin',
     },
     {
-      link: `export default __webpack_public_path__ + "static/media/Tiago-Goncalves_CV.b1e6787a.pdf";`,
+      link: `https://github.com/tiago86g/tiago-site/tree/master/public/Tiago Gonçalves_CV.pdf`,
       iconName: <FaFilePdf />,
       someName: 'PDF cv link',
     },
